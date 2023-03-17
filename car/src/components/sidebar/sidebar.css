@@ -9,3 +9,26 @@
    z-index: 999;
    background: var(--primary-color);
  }
+ .sidebar__top{
+  height: 70px;
+  width: 100px;
+  line-height: 100px;
+ }
+ .sidebar__top h2 {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color:var(--header-color);
+ }
+ .sidebar__top h2 span {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary-color);
+  border-radius: 50%;
+ }
+ .sidebar__top h2 i{
+  font-weight: 400;
+ }
